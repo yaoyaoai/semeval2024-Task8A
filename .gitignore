@@ -1,0 +1,43 @@
+# IDE Settings
+/.idea/
+/.vscode/
+
+# Cached Files
+*.DS_Store
+**/__pycache__/
+**/wandb/
+**/storage/
+result/cache/*.json
+data/split
+# Dataset
+*.jsonl
+multilanguagetest_1.csv
+# Weight Files
+*.pt
+*.pickle
+*.pkl
+**/detector/t5_sentinel/models-small
+**/detector/t5_sentinel/mt5-large
+**/detector/t5_sentinel/t5-large
+detector/t5_sentinel/mt5-xl
+detector/openai_classifier
+detector/solaiman_classifier
+detector/t5_hidden
+generator
+detector/zerogpt_classifier
+*.yaml
+result/data
+detector/t5_sentinel/optm.py
+detector/t5_sentinel/main1.py
+evaluator
+detector/t5_sentinel/val2.py
+detector/t5_sentinel/val.py
+# Sensitive Files
+**/secret.json
+**/client_state.json
+**/cookies.pkl
+**/secrets.yaml
+test.py
+# Log Files
+*.log
+*.lock
